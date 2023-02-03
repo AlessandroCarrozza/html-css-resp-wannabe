@@ -130,14 +130,32 @@ img {
 
  @media screen and (max-width: 480px) {
     .container{
-        width: 480px;
-        display: flex;
-        flex-wrap: wrap;
+        max-width: 480px;
+        display: block;
     }
 
-    .container h2{
+    h2{
         margin: auto;
     }
     
-    
+    .container .row{
+        display: block;
+    }
+
+    .lessons .col{
+        width: calc(100% - 2rem);
+        padding-top: 50px;
+    }
+
+
+    .steps .col{
+        width: calc(100% - 2rem);
+        padding-top: 50px;
+    }
+
+    .why-us .col{
+        width: calc(100% - 2rem);
+        padding-top: 50px;
+    }
+
  }
