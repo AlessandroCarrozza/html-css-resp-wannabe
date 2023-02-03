@@ -140,18 +140,10 @@ img {
     h2{
         margin: auto;
     }
-    
-    .container .row{
-        width: 100%;
-    }
 
     .lessons .col{
         width: 50%;
         padding-top: 50px;
-    }
-
-    .card{
-        width: 100%;
     }
 
     .steps .col{
@@ -172,8 +164,6 @@ img {
         max-width: 480px;
         display: block;
         width: 100%;
-        /* display: flex;
-        flex-wrap: wrap; */
     }
 
     h2{
@@ -182,14 +172,12 @@ img {
     
     .container .row{
         display: block;
-        width: 100%;
     }
 
     .lessons .col{
         width: calc(100% - 2rem);
         padding-top: 50px;
     }
-
 
     .steps .col{
         width: calc(100% - 2rem);
@@ -199,9 +187,5 @@ img {
     .why-us .col{
         width: calc(100% - 2rem);
         padding-top: 50px;
-    }
-
-    .card{
-        width: 100%;
     }
  }
