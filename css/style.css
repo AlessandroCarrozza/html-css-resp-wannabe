@@ -132,6 +132,8 @@ img {
     .container{
         max-width: 480px;
         display: block;
+        /* display: flex;
+        flex-wrap: wrap; */
     }
 
     h2{
@@ -140,6 +142,7 @@ img {
     
     .container .row{
         display: block;
+        width: 100%;
     }
 
     .lessons .col{
@@ -158,4 +161,7 @@ img {
         padding-top: 50px;
     }
 
+    .card{
+        width: 100%;
+    }
  }
